@@ -4,5 +4,5 @@ class TestMain (unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(1, 2), 3)  
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     unittest.main()
